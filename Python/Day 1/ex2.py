@@ -1,0 +1,8 @@
+fifties = input("Enter number of 50 euro banknotes:")
+twenties = input("Enter number of 20 euro banknotes:")
+tens = input("Enter number of 10 euro banknotes:")
+fives = input("Enter number of 5 euro banknotes:")
+twos = input("Enter number of 2 euro banknotes:")
+ones = input("Enter number of 1 euro banknotes:")
+sum = 50*int(fifties) + 20*int(twenties) + 10*int(tens) + 5*int(fives) + 2*int(twos) + int(ones)
+print("You have", sum, "euros.")

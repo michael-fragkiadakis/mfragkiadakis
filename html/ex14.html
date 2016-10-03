@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Html - Exercise 14</title>
+        </head>
+        <body>
+          <h1><b>Registration Form</b></h1>
+          <form style="width:400px" action="myscript.php" method="POST" name="myform">
+            <fieldset>
+              <legend>Personal Data</legend>
+              <table>
+              <tr>
+                <td>username: </td> <td><input type="text" name="username" required></td>
+              </tr>
+              <tr>
+                <td>password: </td> <td><input type="password" name="mypassword" required></td>
+              </tr>
+              <tr>
+                <td>preferences: </td> <td><select name="preferences">
+                <option value="windows">Windows</option>
+                <option value="linux">Linux</option>
+                <option value="mac">Mac</option>
+              </select></td>
+              <tr>
+                <td>gender: </td> <td><input type="radio" name="gender" value="male" required> male
+              <input type="radio" name="gender" value="female" required> female </td>
+              </tr>
+              <tr>
+                <td>age: </td> <td><input type="checkbox" name="age" required></td>
+              <tr>
+                <td> </td>
+                <td><input type="submit" value="register" name= "register">
+                    <input type="reset" value="clear fields" name= "clear"></td>
+              </table>
+            </fieldset>
+          </form>
+        </body>
+    </html>
