@@ -1,0 +1,33 @@
+URL: http://83.212.100.97:8080/Bookcamp/
+
+This is my personal project which is one third of our team project.
+ The latter will be a site similar what imdb is for movies, but for
+ books! It’s name is Bookcamp and it essentially is a book database,
+ where users can browse our book collection, find info about them,
+ as well as their authors, review/rate books and keep a personal
+ wishlist with those of interest to her.
+
+My part of the project is the book page itself. The navigation bar
+ on top, as well as the bottom bar are inactive, as I’ve focused on
+ the actual book content/info. Since there is no loggin function in
+ my part, I’ve set a default user (the username of whom can be seen
+ on top right of the page) – this can change via the index.jsp. As 
+him, you can use the book page’s main functionalities just like if 
+you would be logged in.
+
+As with log in part, since the homepage is in another teammate’s
+ part, I’ve set book no.1 in our database to be (my personal projects)
+ temporary homepage. From there, you can navigate to other books
+ either via the carousel with the current author’s other works, or
+ via the url by adding     ?bookId=xx     (where xx is the id of
+ the books in our database - 1 to 46 at the moment) after the
+ default /index.jsp (yes, the search functionality is also a
+ teammate’s work).
+
+Feel free to check any and all of the books and ther info, add/remove
+ them from your wishlist, add/update/delete your rating/review.
+
+That’s it for now. For more awesomeness, stay tuned for the whole
+ project…  
+
+
